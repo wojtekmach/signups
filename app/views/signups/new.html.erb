@@ -1,0 +1,12 @@
+
+<div class='row'>
+  <h1>Sign up</h1>
+
+  <div class='col-xs-4'>
+    <%= simple_form_for @signup, url: signup_path do |f| %>
+      <%= f.input :email %>
+
+      <%= f.submit 'Sign up', class: 'btn' %>
+    <% end %>
+  </div>
+</div>
