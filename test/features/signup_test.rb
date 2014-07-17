@@ -1,5 +1,4 @@
 require 'test_helper'
-require 'minitest/spec'
 require 'webmock'
 require 'app'
 require 'api_client'
